@@ -32,6 +32,10 @@ Ahhh :) Much better! The new model is correctly able to detect what the shapes a
 ## Converting to OpenVINO (hardest thing to find in my opinion)
 In order to convert the model to OpenVINO, I had a LOT of digging to do. I needed a lot of help from my dad to get through this last part. In the end, I found [this Jupyter notebook](https://colab.research.google.com/github/openvinotoolkit/openvino_notebooks/blob/main/notebooks/230-yolov8-optimization/230-yolov8-optimization.ipynb) while searching, and had everything we needed to convert the model to OpenVINO.
 
+![](https://github.com/sashrikad/shape-detection-yolov8-openvino/assets/82982009/85484645-abc7-4b47-b29d-fc3f9d1d9597)
+
+Do you notice anything different here? You may or may not. This is the same image from before, but it has been run against the OpenVINO model after a big deep dive for the information!
+
 ## What we plan on working on after
 I am planning on actually being able to test this out in real-time with a webcam, so we will need to be able to run on the computer.
 
